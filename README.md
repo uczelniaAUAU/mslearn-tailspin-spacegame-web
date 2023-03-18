@@ -43,7 +43,7 @@ while IFS= read -r branch; do
     # Push updatejskfhasdjfhasdjfjsdhffkjh
     git push origin $branch
 done <<< "$branches"
-# Switch back to main
+# Switch back to main test test
 git checkout main
 ```
 
