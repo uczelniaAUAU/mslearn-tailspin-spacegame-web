@@ -40,7 +40,7 @@ while IFS= read -r branch; do
     if [ $? -ne 0 ]; then
         break
     fi
-    # Push update
+    # Push updatejskfhasdjfhasdjfjsdhffkjh
     git push origin $branch
 done <<< "$branches"
 # Switch back to main
